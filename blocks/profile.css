@@ -21,7 +21,7 @@
   border: 1px solid #fff;
   padding: 0;
   cursor: pointer;
-  align-self: 15px;
+  align-self: center;
 }
 
 .profile__add-button {
@@ -73,6 +73,10 @@
     align-items: center;
   }
 
+  .profile__image {
+    margin: 0;
+  }
+
   .profile__add-button {
     margin: 20px auto 0;
   }
@@ -89,7 +93,7 @@
     align-items: center;
     column-gap: 10px;
     row-gap: 8px;
-    margin: 0 0 36px;
+    margin: 30px 19px 36px 19px;
   }
 
   .profile__title {
