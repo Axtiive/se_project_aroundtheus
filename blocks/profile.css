@@ -21,7 +21,7 @@
   border: 1px solid #fff;
   padding: 0;
   cursor: pointer;
-  margin-top: 15px;
+  align-self: 15px;
 }
 
 .profile__add-button {
@@ -45,7 +45,7 @@
 .profile__description {
   font-size: 18px;
   line-height: 22px;
-  font-weight: 400px;
+  font-weight: 400;
   grid-area: description;
   margin: 0;
 }
@@ -73,15 +73,12 @@
     align-items: center;
   }
 
-  .profile__info {
-    text-align: center;
-  }
-
   .profile__add-button {
     margin: 20px auto 0;
   }
 
   .profile__info {
+    text-align: center;
     width: 100%;
     display: grid;
     grid-template-areas:
@@ -101,14 +98,6 @@
     text-align: center;
     margin: 0;
     grid-area: title;
-  }
-
-  .profile__edit-button:hover {
-    width: 18px;
-    height: 18px;
-    background-size: 7.5px 7.5px;
-    border: 1px solid #fff;
-    grid-area: description;
   }
 
   .profile__add-button {

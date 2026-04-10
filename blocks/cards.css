@@ -12,7 +12,7 @@
   margin: 0;
 }
 
-@media screen (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .cards {
     grid-template-columns: 1fr;
   }
