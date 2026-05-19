@@ -13,6 +13,10 @@
   padding: 19px;
 }
 
+.modal__title {
+  color: #000;
+}
+
 .modal__opened {
   display: flex;
 }
