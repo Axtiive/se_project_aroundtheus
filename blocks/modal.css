@@ -7,18 +7,18 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
   padding: 19px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   padding: 19px;
 }
 
-.modal__title {
-  color: #000;
-}
-
 .modal__opened {
   display: flex;
+}
+
+.modal__title {
+  color: #000;
 }
 
 .modal__container {
