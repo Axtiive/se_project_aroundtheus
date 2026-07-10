@@ -38,7 +38,7 @@ const profileDescriptionInput = document.querySelector(
   "#profile-description-input",
 );
 
-const profileEditform = profileEditModal.querySelector(".modal__form");
+const profileEditForm = profileEditModal.querySelector(".modal__form");
 const cardListEL = document.querySelector(".cards__list");
 const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
@@ -89,6 +89,5 @@ profileEditform.addEventListener("submit", handleProfileEditSubmit);
 
 initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
-  console.log(cardData.name);
   cardListEL.prepend(cardElement);
 });

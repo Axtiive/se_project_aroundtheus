@@ -86,7 +86,7 @@
   padding: 34px 36px 36px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 627px) {
   .modal__form {
     padding: 25px 22px;
   }
