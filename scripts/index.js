@@ -85,7 +85,7 @@ const profileCloseButton = document.querySelector(".modal__close");
 
 profileCloseButton.addEventListener("click", closePopup);
 
-profileEditform.addEventListener("submit", handleProfileEditSubmit);
+profileEditForm.addEventListener("submit", handleProfileEditSubmit);
 
 initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
